@@ -1,0 +1,658 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.2.4
+2 info using node@v21.6.1
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 3ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:/Users/mr.akpini/Desktop/urban-kicks/frontend/.npmrc Completed in 2ms
+10 timing config:load:project Completed in 4ms
+11 timing config:load:file:/Users/mr.akpini/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/usr/local/etc/npmrc Completed in 2ms
+14 timing config:load:global Completed in 2ms
+15 timing config:load:setEnvs Completed in 2ms
+16 timing config:load Completed in 16ms
+17 timing npm:load:configload Completed in 16ms
+18 timing config:load:flatten Completed in 3ms
+19 timing npm:load:mkdirpcache Completed in 1ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm install tailwindcss postcss autoprefixer
+22 verbose argv "install" "--save-dev" "tailwindcss" "postcss" "autoprefixer"
+23 timing npm:load:setTitle Completed in 33ms
+24 timing npm:load:display Completed in 1ms
+25 verbose logfile logs-max:10 dir:/Users/mr.akpini/Desktop/urban-kicks/.npm-cache/_logs/2026-04-08T15_22_33_138Z-
+26 verbose logfile /Users/mr.akpini/Desktop/urban-kicks/.npm-cache/_logs/2026-04-08T15_22_33_138Z-debug-0.log
+27 timing npm:load:logFile Completed in 13ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 88ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 126ms
+34 timing idealTree:userRequests Completed in 2ms
+35 silly idealTree buildDeps
+36 silly fetch manifest tailwindcss@*
+37 timing arborist:ctor Completed in 0ms
+38 http fetch GET 200 https://registry.npmjs.org/tailwindcss 1057ms (cache miss)
+39 silly fetch manifest postcss@*
+40 http fetch GET 200 https://registry.npmjs.org/postcss 13ms (cache hit)
+41 silly fetch manifest autoprefixer@*
+42 http fetch GET 200 https://registry.npmjs.org/autoprefixer 338ms (cache miss)
+43 silly placeDep ROOT autoprefixer@10.4.27 OK for: frontend@0.0.0 want: *
+44 silly fetch manifest fraction.js@^5.3.4
+45 silly fetch manifest postcss-value-parser@^4.2.0
+46 silly placeDep ROOT postcss@8.5.9 REPLACE for: frontend@0.0.0 want: *
+47 silly placeDep ROOT tailwindcss@4.2.2 OK for: frontend@0.0.0 want: *
+48 http fetch GET 200 https://registry.npmjs.org/fraction.js 423ms (cache miss)
+49 http fetch GET 200 https://registry.npmjs.org/postcss-value-parser 824ms (cache miss)
+50 timing idealTree:#root Completed in 2292ms
+51 silly placeDep ROOT fraction.js@5.3.4 OK for: autoprefixer@10.4.27 want: ^5.3.4
+52 silly placeDep ROOT postcss-value-parser@4.2.0 OK for: autoprefixer@10.4.27 want: ^4.2.0
+53 timing idealTree:node_modules/autoprefixer Completed in 4ms
+54 timing idealTree:node_modules/fraction.js Completed in 0ms
+55 timing idealTree:node_modules/postcss Completed in 0ms
+56 timing idealTree:node_modules/postcss-value-parser Completed in 0ms
+57 timing idealTree:node_modules/tailwindcss Completed in 0ms
+58 timing idealTree:buildDeps Completed in 2300ms
+59 timing idealTree:fixDepFlags Completed in 1ms
+60 warn EBADENGINE Unsupported engine {
+60 warn EBADENGINE   package: 'balanced-match@4.0.4',
+60 warn EBADENGINE   required: { node: '18 || 20 || >=22' },
+60 warn EBADENGINE   current: { node: 'v21.6.1', npm: '10.2.4' }
+60 warn EBADENGINE }
+61 warn EBADENGINE Unsupported engine {
+61 warn EBADENGINE   package: 'brace-expansion@5.0.5',
+61 warn EBADENGINE   required: { node: '18 || 20 || >=22' },
+61 warn EBADENGINE   current: { node: 'v21.6.1', npm: '10.2.4' }
+61 warn EBADENGINE }
+62 warn EBADENGINE Unsupported engine {
+62 warn EBADENGINE   package: 'minimatch@10.2.5',
+62 warn EBADENGINE   required: { node: '18 || 20 || >=22' },
+62 warn EBADENGINE   current: { node: 'v21.6.1', npm: '10.2.4' }
+62 warn EBADENGINE }
+63 warn EBADENGINE Unsupported engine {
+63 warn EBADENGINE   package: 'eslint-visitor-keys@5.0.1',
+63 warn EBADENGINE   required: { node: '^20.19.0 || ^22.13.0 || >=24' },
+63 warn EBADENGINE   current: { node: 'v21.6.1', npm: '10.2.4' }
+63 warn EBADENGINE }
+64 timing idealTree Completed in 2437ms
+65 timing reify:loadTrees Completed in 2439ms
+66 timing reify:diffTrees Completed in 7ms
+67 silly reify moves {}
+68 timing reify:retireShallow Completed in 1ms
+69 timing reify:createSparse Completed in 6ms
+70 timing reify:loadBundles Completed in 0ms
+71 silly audit bulk request {
+71 silly audit   '@babel/code-frame': [ '7.29.0' ],
+71 silly audit   '@babel/compat-data': [ '7.29.0' ],
+71 silly audit   '@babel/core': [ '7.29.0' ],
+71 silly audit   '@babel/generator': [ '7.29.1' ],
+71 silly audit   '@babel/helper-compilation-targets': [ '7.28.6' ],
+71 silly audit   '@babel/helper-globals': [ '7.28.0' ],
+71 silly audit   '@babel/helper-module-imports': [ '7.28.6' ],
+71 silly audit   '@babel/helper-module-transforms': [ '7.28.6' ],
+71 silly audit   '@babel/helper-plugin-utils': [ '7.28.6' ],
+71 silly audit   '@babel/helper-string-parser': [ '7.27.1' ],
+71 silly audit   '@babel/helper-validator-identifier': [ '7.28.5' ],
+71 silly audit   '@babel/helper-validator-option': [ '7.27.1' ],
+71 silly audit   '@babel/helpers': [ '7.29.2' ],
+71 silly audit   '@babel/parser': [ '7.29.2' ],
+71 silly audit   '@babel/plugin-transform-react-jsx-self': [ '7.27.1' ],
+71 silly audit   '@babel/plugin-transform-react-jsx-source': [ '7.27.1' ],
+71 silly audit   '@babel/template': [ '7.28.6' ],
+71 silly audit   '@babel/traverse': [ '7.29.0' ],
+71 silly audit   '@babel/types': [ '7.29.0' ],
+71 silly audit   '@esbuild/aix-ppc64': [ '0.21.5' ],
+71 silly audit   '@esbuild/android-arm': [ '0.21.5' ],
+71 silly audit   '@esbuild/android-arm64': [ '0.21.5' ],
+71 silly audit   '@esbuild/android-x64': [ '0.21.5' ],
+71 silly audit   '@esbuild/darwin-arm64': [ '0.21.5' ],
+71 silly audit   '@esbuild/darwin-x64': [ '0.21.5' ],
+71 silly audit   '@esbuild/freebsd-arm64': [ '0.21.5' ],
+71 silly audit   '@esbuild/freebsd-x64': [ '0.21.5' ],
+71 silly audit   '@esbuild/linux-arm': [ '0.21.5' ],
+71 silly audit   '@esbuild/linux-arm64': [ '0.21.5' ],
+71 silly audit   '@esbuild/linux-ia32': [ '0.21.5' ],
+71 silly audit   '@esbuild/linux-loong64': [ '0.21.5' ],
+71 silly audit   '@esbuild/linux-mips64el': [ '0.21.5' ],
+71 silly audit   '@esbuild/linux-ppc64': [ '0.21.5' ],
+71 silly audit   '@esbuild/linux-riscv64': [ '0.21.5' ],
+71 silly audit   '@esbuild/linux-s390x': [ '0.21.5' ],
+71 silly audit   '@esbuild/linux-x64': [ '0.21.5' ],
+71 silly audit   '@esbuild/netbsd-x64': [ '0.21.5' ],
+71 silly audit   '@esbuild/openbsd-x64': [ '0.21.5' ],
+71 silly audit   '@esbuild/sunos-x64': [ '0.21.5' ],
+71 silly audit   '@esbuild/win32-arm64': [ '0.21.5' ],
+71 silly audit   '@esbuild/win32-ia32': [ '0.21.5' ],
+71 silly audit   '@esbuild/win32-x64': [ '0.21.5' ],
+71 silly audit   '@eslint-community/eslint-utils': [ '4.9.1' ],
+71 silly audit   'eslint-visitor-keys': [ '3.4.3', '5.0.1', '4.2.1' ],
+71 silly audit   '@eslint-community/regexpp': [ '4.12.2' ],
+71 silly audit   '@eslint/config-array': [ '0.21.2' ],
+71 silly audit   '@eslint/config-helpers': [ '0.4.2' ],
+71 silly audit   '@eslint/core': [ '0.17.0' ],
+71 silly audit   '@eslint/eslintrc': [ '3.3.5' ],
+71 silly audit   globals: [ '14.0.0', '15.15.0' ],
+71 silly audit   '@eslint/js': [ '9.39.4' ],
+71 silly audit   '@eslint/object-schema': [ '2.1.7' ],
+71 silly audit   '@eslint/plugin-kit': [ '0.4.1' ],
+71 silly audit   '@humanfs/core': [ '0.19.1' ],
+71 silly audit   '@humanfs/node': [ '0.16.7' ],
+71 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+71 silly audit   '@humanwhocodes/retry': [ '0.4.3' ],
+71 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+71 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+71 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+71 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+71 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+71 silly audit   '@rolldown/pluginutils': [ '1.0.0-beta.27' ],
+71 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.60.1' ],
+71 silly audit   '@rollup/rollup-android-arm64': [ '4.60.1' ],
+71 silly audit   '@rollup/rollup-darwin-arm64': [ '4.60.1' ],
+71 silly audit   '@rollup/rollup-darwin-x64': [ '4.60.1' ],
+71 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.60.1' ],
+71 silly audit   '@rollup/rollup-freebsd-x64': [ '4.60.1' ],
+71 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.60.1' ],
+71 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.60.1' ],
+71 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.60.1' ],
+71 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.60.1' ],
+71 silly audit   '@rollup/rollup-linux-loong64-gnu': [ '4.60.1' ],
+71 silly audit   '@rollup/rollup-linux-loong64-musl': [ '4.60.1' ],
+71 silly audit   '@rollup/rollup-linux-ppc64-gnu': [ '4.60.1' ],
+71 silly audit   '@rollup/rollup-linux-ppc64-musl': [ '4.60.1' ],
+71 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.60.1' ],
+71 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.60.1' ],
+71 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.60.1' ],
+71 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.60.1' ],
+71 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.60.1' ],
+71 silly audit   '@rollup/rollup-openbsd-x64': [ '4.60.1' ],
+71 silly audit   '@rollup/rollup-openharmony-arm64': [ '4.60.1' ],
+71 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.60.1' ],
+71 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.60.1' ],
+71 silly audit   '@rollup/rollup-win32-x64-gnu': [ '4.60.1' ],
+71 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.60.1' ],
+71 silly audit   '@types/babel__core': [ '7.20.5' ],
+71 silly audit   '@types/babel__generator': [ '7.27.0' ],
+71 silly audit   '@types/babel__template': [ '7.4.4' ],
+71 silly audit   '@types/babel__traverse': [ '7.28.0' ],
+71 silly audit   '@types/estree': [ '1.0.8' ],
+71 silly audit   '@types/json-schema': [ '7.0.15' ],
+71 silly audit   '@types/prop-types': [ '15.7.15' ],
+71 silly audit   '@types/react': [ '18.3.28' ],
+71 silly audit   '@types/react-dom': [ '18.3.7' ],
+71 silly audit   '@typescript-eslint/eslint-plugin': [ '8.58.1' ],
+71 silly audit   ignore: [ '7.0.5', '5.3.2' ],
+71 silly audit   '@typescript-eslint/parser': [ '8.58.1' ],
+71 silly audit   '@typescript-eslint/project-service': [ '8.58.1' ],
+71 silly audit   '@typescript-eslint/scope-manager': [ '8.58.1' ],
+71 silly audit   '@typescript-eslint/tsconfig-utils': [ '8.58.1' ],
+71 silly audit   '@typescript-eslint/type-utils': [ '8.58.1' ],
+71 silly audit   '@typescript-eslint/types': [ '8.58.1' ],
+71 silly audit   '@typescript-eslint/typescript-estree': [ '8.58.1' ],
+71 silly audit   'balanced-match': [ '4.0.4', '1.0.2' ],
+71 silly audit   'brace-expansion': [ '5.0.5', '1.1.13' ],
+71 silly audit   minimatch: [ '10.2.5', '3.1.5' ],
+71 silly audit   semver: [ '7.7.4', '6.3.1' ],
+71 silly audit   '@typescript-eslint/utils': [ '8.58.1' ],
+71 silly audit   '@typescript-eslint/visitor-keys': [ '8.58.1' ],
+71 silly audit   '@vitejs/plugin-react': [ '4.7.0' ],
+71 silly audit   acorn: [ '8.16.0' ],
+71 silly audit   'acorn-jsx': [ '5.3.2' ],
+71 silly audit   ajv: [ '6.14.0' ],
+71 silly audit   'ansi-styles': [ '4.3.0' ],
+71 silly audit   argparse: [ '2.0.1' ],
+71 silly audit   'baseline-browser-mapping': [ '2.10.16' ],
+71 silly audit   browserslist: [ '4.28.2' ],
+71 silly audit   callsites: [ '3.1.0' ],
+71 silly audit   'caniuse-lite': [ '1.0.30001787' ],
+71 silly audit   chalk: [ '4.1.2' ],
+71 silly audit   'color-convert': [ '2.0.1' ],
+71 silly audit   'color-name': [ '1.1.4' ],
+71 silly audit   'concat-map': [ '0.0.1' ],
+71 silly audit   'convert-source-map': [ '2.0.0' ],
+71 silly audit   'cross-spawn': [ '7.0.6' ],
+71 silly audit   csstype: [ '3.2.3' ],
+71 silly audit   debug: [ '4.4.3' ],
+71 silly audit   'deep-is': [ '0.1.4' ],
+71 silly audit   'electron-to-chromium': [ '1.5.334' ],
+71 silly audit   esbuild: [ '0.21.5' ],
+71 silly audit   escalade: [ '3.2.0' ],
+71 silly audit   'escape-string-regexp': [ '4.0.0' ],
+71 silly audit   eslint: [ '9.39.4' ],
+71 silly audit   'eslint-plugin-react-hooks': [ '5.2.0' ],
+71 silly audit   'eslint-plugin-react-refresh': [ '0.4.26' ],
+71 silly audit   'eslint-scope': [ '8.4.0' ],
+71 silly audit   espree: [ '10.4.0' ],
+71 silly audit   esquery: [ '1.7.0' ],
+71 silly audit   esrecurse: [ '4.3.0' ],
+71 silly audit   estraverse: [ '5.3.0' ],
+71 silly audit   esutils: [ '2.0.3' ],
+71 silly audit   'fast-deep-equal': [ '3.1.3' ],
+71 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+71 silly audit   'fast-levenshtein': [ '2.0.6' ],
+71 silly audit   fdir: [ '6.5.0' ],
+71 silly audit   'file-entry-cache': [ '8.0.0' ],
+71 silly audit   'find-up': [ '5.0.0' ],
+71 silly audit   'flat-cache': [ '4.0.1' ],
+71 silly audit   flatted: [ '3.4.2' ],
+71 silly audit   fsevents: [ '2.3.3' ],
+71 silly audit   gensync: [ '1.0.0-beta.2' ],
+71 silly audit   'glob-parent': [ '6.0.2' ],
+71 silly audit   'has-flag': [ '4.0.0' ],
+71 silly audit   'import-fresh': [ '3.3.1' ],
+71 silly audit   imurmurhash: [ '0.1.4' ],
+71 silly audit   'is-extglob': [ '2.1.1' ],
+71 silly audit   'is-glob': [ '4.0.3' ],
+71 silly audit   isexe: [ '2.0.0' ],
+71 silly audit   'js-tokens': [ '4.0.0' ],
+71 silly audit   'js-yaml': [ '4.1.1' ],
+71 silly audit   jsesc: [ '3.1.0' ],
+71 silly audit   'json-buffer': [ '3.0.1' ],
+71 silly audit   'json-schema-traverse': [ '0.4.1' ],
+71 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+71 silly audit   json5: [ '2.2.3' ],
+71 silly audit   keyv: [ '4.5.4' ],
+71 silly audit   levn: [ '0.4.1' ],
+71 silly audit   'locate-path': [ '6.0.0' ],
+71 silly audit   'lodash.merge': [ '4.6.2' ],
+71 silly audit   'loose-envify': [ '1.4.0' ],
+71 silly audit   'lru-cache': [ '5.1.1' ],
+71 silly audit   ms: [ '2.1.3' ],
+71 silly audit   nanoid: [ '3.3.11' ],
+71 silly audit   'natural-compare': [ '1.4.0' ],
+71 silly audit   'node-releases': [ '2.0.37' ],
+71 silly audit   optionator: [ '0.9.4' ],
+71 silly audit   'p-limit': [ '3.1.0' ],
+71 silly audit   'p-locate': [ '5.0.0' ],
+71 silly audit   'parent-module': [ '1.0.1' ],
+71 silly audit   'path-exists': [ '4.0.0' ],
+71 silly audit   'path-key': [ '3.1.1' ],
+71 silly audit   picocolors: [ '1.1.1' ],
+71 silly audit   picomatch: [ '4.0.4' ],
+71 silly audit   'prelude-ls': [ '1.2.1' ],
+71 silly audit   punycode: [ '2.3.1' ],
+71 silly audit   react: [ '18.3.1' ],
+71 silly audit   'react-dom': [ '18.3.1' ],
+71 silly audit   'react-refresh': [ '0.17.0' ],
+71 silly audit   'resolve-from': [ '4.0.0' ],
+71 silly audit   rollup: [ '4.60.1' ],
+71 silly audit   scheduler: [ '0.23.2' ],
+71 silly audit   'shebang-command': [ '2.0.0' ],
+71 silly audit   'shebang-regex': [ '3.0.0' ],
+71 silly audit   'source-map-js': [ '1.2.1' ],
+71 silly audit   'strip-json-comments': [ '3.1.1' ],
+71 silly audit   'supports-color': [ '7.2.0' ],
+71 silly audit   tinyglobby: [ '0.2.16' ],
+71 silly audit   'ts-api-utils': [ '2.5.0' ],
+71 silly audit   'type-check': [ '0.4.0' ],
+71 silly audit   typescript: [ '5.6.3' ],
+71 silly audit   'typescript-eslint': [ '8.58.1' ],
+71 silly audit   'update-browserslist-db': [ '1.2.3' ],
+71 silly audit   'uri-js': [ '4.4.1' ],
+71 silly audit   vite: [ '5.4.21' ],
+71 silly audit   which: [ '2.0.2' ],
+71 silly audit   'word-wrap': [ '1.2.5' ],
+71 silly audit   yallist: [ '3.1.1' ],
+71 silly audit   'yocto-queue': [ '0.1.0' ],
+71 silly audit   autoprefixer: [ '10.4.27' ],
+71 silly audit   postcss: [ '8.5.9' ],
+71 silly audit   tailwindcss: [ '4.2.2' ],
+71 silly audit   'fraction.js': [ '5.3.4' ],
+71 silly audit   'postcss-value-parser': [ '4.2.0' ]
+71 silly audit }
+72 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-win32-x64-msvc
+73 silly reify mark deleted [
+73 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-win32-x64-msvc'
+73 silly reify ]
+74 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-win32-x64-gnu
+75 silly reify mark deleted [
+75 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-win32-x64-gnu'
+75 silly reify ]
+76 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-win32-ia32-msvc
+77 silly reify mark deleted [
+77 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-win32-ia32-msvc'
+77 silly reify ]
+78 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-win32-arm64-msvc
+79 silly reify mark deleted [
+79 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-win32-arm64-msvc'
+79 silly reify ]
+80 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-openharmony-arm64
+81 silly reify mark deleted [
+81 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-openharmony-arm64'
+81 silly reify ]
+82 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-openbsd-x64
+83 silly reify mark deleted [
+83 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-openbsd-x64'
+83 silly reify ]
+84 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-linux-x64-musl
+85 silly reify mark deleted [
+85 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-linux-x64-musl'
+85 silly reify ]
+86 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-linux-x64-gnu
+87 silly reify mark deleted [
+87 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-linux-x64-gnu'
+87 silly reify ]
+88 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-linux-s390x-gnu
+89 silly reify mark deleted [
+89 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-linux-s390x-gnu'
+89 silly reify ]
+90 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-linux-riscv64-musl
+91 silly reify mark deleted [
+91 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-linux-riscv64-musl'
+91 silly reify ]
+92 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-linux-riscv64-gnu
+93 silly reify mark deleted [
+93 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-linux-riscv64-gnu'
+93 silly reify ]
+94 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-linux-ppc64-musl
+95 silly reify mark deleted [
+95 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-linux-ppc64-musl'
+95 silly reify ]
+96 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-linux-ppc64-gnu
+97 silly reify mark deleted [
+97 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-linux-ppc64-gnu'
+97 silly reify ]
+98 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-linux-loong64-musl
+99 silly reify mark deleted [
+99 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-linux-loong64-musl'
+99 silly reify ]
+100 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-linux-loong64-gnu
+101 silly reify mark deleted [
+101 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-linux-loong64-gnu'
+101 silly reify ]
+102 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-linux-arm64-musl
+103 silly reify mark deleted [
+103 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-linux-arm64-musl'
+103 silly reify ]
+104 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-linux-arm64-gnu
+105 silly reify mark deleted [
+105 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-linux-arm64-gnu'
+105 silly reify ]
+106 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-linux-arm-musleabihf
+107 silly reify mark deleted [
+107 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-linux-arm-musleabihf'
+107 silly reify ]
+108 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-linux-arm-gnueabihf
+109 silly reify mark deleted [
+109 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-linux-arm-gnueabihf'
+109 silly reify ]
+110 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-freebsd-x64
+111 silly reify mark deleted [
+111 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-freebsd-x64'
+111 silly reify ]
+112 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-freebsd-arm64
+113 silly reify mark deleted [
+113 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-freebsd-arm64'
+113 silly reify ]
+114 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-darwin-arm64
+115 silly reify mark deleted [
+115 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-darwin-arm64'
+115 silly reify ]
+116 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-android-arm64
+117 silly reify mark deleted [
+117 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-android-arm64'
+117 silly reify ]
+118 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-android-arm-eabi
+119 silly reify mark deleted [
+119 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@rollup/rollup-android-arm-eabi'
+119 silly reify ]
+120 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/win32-x64
+121 silly reify mark deleted [
+121 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/win32-x64'
+121 silly reify ]
+122 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/win32-ia32
+123 silly reify mark deleted [
+123 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/win32-ia32'
+123 silly reify ]
+124 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/win32-arm64
+125 silly reify mark deleted [
+125 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/win32-arm64'
+125 silly reify ]
+126 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/sunos-x64
+127 silly reify mark deleted [
+127 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/sunos-x64'
+127 silly reify ]
+128 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/openbsd-x64
+129 silly reify mark deleted [
+129 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/openbsd-x64'
+129 silly reify ]
+130 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/netbsd-x64
+131 silly reify mark deleted [
+131 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/netbsd-x64'
+131 silly reify ]
+132 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/linux-x64
+133 silly reify mark deleted [
+133 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/linux-x64'
+133 silly reify ]
+134 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/linux-s390x
+135 silly reify mark deleted [
+135 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/linux-s390x'
+135 silly reify ]
+136 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/linux-riscv64
+137 silly reify mark deleted [
+137 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/linux-riscv64'
+137 silly reify ]
+138 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/linux-ppc64
+139 silly reify mark deleted [
+139 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/linux-ppc64'
+139 silly reify ]
+140 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/linux-mips64el
+141 silly reify mark deleted [
+141 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/linux-mips64el'
+141 silly reify ]
+142 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/linux-loong64
+143 silly reify mark deleted [
+143 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/linux-loong64'
+143 silly reify ]
+144 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/linux-ia32
+145 silly reify mark deleted [
+145 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/linux-ia32'
+145 silly reify ]
+146 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/linux-arm64
+147 silly reify mark deleted [
+147 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/linux-arm64'
+147 silly reify ]
+148 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/linux-arm
+149 silly reify mark deleted [
+149 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/linux-arm'
+149 silly reify ]
+150 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/freebsd-x64
+151 silly reify mark deleted [
+151 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/freebsd-x64'
+151 silly reify ]
+152 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/freebsd-arm64
+153 silly reify mark deleted [
+153 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/freebsd-arm64'
+153 silly reify ]
+154 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/darwin-arm64
+155 silly reify mark deleted [
+155 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/darwin-arm64'
+155 silly reify ]
+156 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/android-x64
+157 silly reify mark deleted [
+157 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/android-x64'
+157 silly reify ]
+158 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/android-arm64
+159 silly reify mark deleted [
+159 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/android-arm64'
+159 silly reify ]
+160 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/android-arm
+161 silly reify mark deleted [
+161 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/android-arm'
+161 silly reify ]
+162 verbose reify failed optional dependency /Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/aix-ppc64
+163 silly reify mark deleted [
+163 silly reify   '/Users/mr.akpini/Desktop/urban-kicks/frontend/node_modules/@esbuild/aix-ppc64'
+163 silly reify ]
+164 timing reifyNode:node_modules/@rollup/rollup-win32-x64-msvc Completed in 15ms
+165 timing reifyNode:node_modules/@rollup/rollup-win32-x64-gnu Completed in 14ms
+166 timing reifyNode:node_modules/@rollup/rollup-win32-ia32-msvc Completed in 14ms
+167 timing reifyNode:node_modules/@rollup/rollup-win32-arm64-msvc Completed in 15ms
+168 timing reifyNode:node_modules/@rollup/rollup-openharmony-arm64 Completed in 15ms
+169 timing reifyNode:node_modules/@rollup/rollup-openbsd-x64 Completed in 15ms
+170 timing reifyNode:node_modules/@rollup/rollup-linux-x64-musl Completed in 15ms
+171 timing reifyNode:node_modules/@rollup/rollup-linux-x64-gnu Completed in 15ms
+172 timing reifyNode:node_modules/@rollup/rollup-linux-s390x-gnu Completed in 15ms
+173 timing reifyNode:node_modules/@rollup/rollup-linux-riscv64-musl Completed in 15ms
+174 timing reifyNode:node_modules/@rollup/rollup-linux-riscv64-gnu Completed in 15ms
+175 timing reifyNode:node_modules/@rollup/rollup-linux-ppc64-musl Completed in 15ms
+176 timing reifyNode:node_modules/@rollup/rollup-linux-ppc64-gnu Completed in 14ms
+177 timing reifyNode:node_modules/@rollup/rollup-linux-loong64-musl Completed in 14ms
+178 timing reifyNode:node_modules/@rollup/rollup-linux-loong64-gnu Completed in 15ms
+179 timing reifyNode:node_modules/@rollup/rollup-linux-arm64-musl Completed in 15ms
+180 timing reifyNode:node_modules/@rollup/rollup-linux-arm64-gnu Completed in 15ms
+181 timing reifyNode:node_modules/@rollup/rollup-linux-arm-musleabihf Completed in 15ms
+182 timing reifyNode:node_modules/@rollup/rollup-linux-arm-gnueabihf Completed in 15ms
+183 timing reifyNode:node_modules/@rollup/rollup-freebsd-x64 Completed in 15ms
+184 timing reifyNode:node_modules/@rollup/rollup-freebsd-arm64 Completed in 15ms
+185 timing reifyNode:node_modules/@rollup/rollup-darwin-arm64 Completed in 15ms
+186 timing reifyNode:node_modules/@rollup/rollup-android-arm64 Completed in 15ms
+187 timing reifyNode:node_modules/@rollup/rollup-android-arm-eabi Completed in 15ms
+188 timing reifyNode:node_modules/@esbuild/win32-x64 Completed in 15ms
+189 timing reifyNode:node_modules/@esbuild/win32-ia32 Completed in 14ms
+190 timing reifyNode:node_modules/@esbuild/win32-arm64 Completed in 14ms
+191 timing reifyNode:node_modules/@esbuild/sunos-x64 Completed in 14ms
+192 timing reifyNode:node_modules/@esbuild/openbsd-x64 Completed in 14ms
+193 timing reifyNode:node_modules/@esbuild/netbsd-x64 Completed in 14ms
+194 timing reifyNode:node_modules/@esbuild/linux-x64 Completed in 14ms
+195 timing reifyNode:node_modules/@esbuild/linux-s390x Completed in 15ms
+196 timing reifyNode:node_modules/@esbuild/linux-riscv64 Completed in 15ms
+197 timing reifyNode:node_modules/@esbuild/linux-ppc64 Completed in 15ms
+198 timing reifyNode:node_modules/@esbuild/linux-mips64el Completed in 15ms
+199 timing reifyNode:node_modules/@esbuild/linux-loong64 Completed in 15ms
+200 timing reifyNode:node_modules/@esbuild/linux-ia32 Completed in 15ms
+201 timing reifyNode:node_modules/@esbuild/linux-arm64 Completed in 14ms
+202 timing reifyNode:node_modules/@esbuild/linux-arm Completed in 14ms
+203 timing reifyNode:node_modules/@esbuild/freebsd-x64 Completed in 14ms
+204 timing reifyNode:node_modules/@esbuild/freebsd-arm64 Completed in 14ms
+205 timing reifyNode:node_modules/@esbuild/darwin-arm64 Completed in 14ms
+206 timing reifyNode:node_modules/@esbuild/android-x64 Completed in 14ms
+207 timing reifyNode:node_modules/@esbuild/android-arm64 Completed in 14ms
+208 timing reifyNode:node_modules/@esbuild/android-arm Completed in 14ms
+209 timing reifyNode:node_modules/@esbuild/aix-ppc64 Completed in 14ms
+210 silly tarball no local data for postcss-value-parser@https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz. Extracting by manifest.
+211 silly tarball no local data for fraction.js@https://registry.npmjs.org/fraction.js/-/fraction.js-5.3.4.tgz. Extracting by manifest.
+212 silly tarball no local data for tailwindcss@https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.2.2.tgz. Extracting by manifest.
+213 silly tarball no local data for autoprefixer@https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.4.27.tgz. Extracting by manifest.
+214 http fetch GET 200 https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz 109ms (cache miss)
+215 timing reifyNode:node_modules/postcss-value-parser Completed in 131ms
+216 http fetch GET 200 https://registry.npmjs.org/fraction.js/-/fraction.js-5.3.4.tgz 294ms (cache miss)
+217 timing reifyNode:node_modules/fraction.js Completed in 317ms
+218 http fetch GET 200 https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.4.27.tgz 294ms (cache miss)
+219 timing reifyNode:node_modules/autoprefixer Completed in 319ms
+220 http fetch GET 200 https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.2.2.tgz 300ms (cache miss)
+221 timing reifyNode:node_modules/tailwindcss Completed in 324ms
+222 timing reify:unpack Completed in 324ms
+223 timing reify:unretire Completed in 0ms
+224 timing build:queue Completed in 2ms
+225 timing build:link:node_modules/autoprefixer Completed in 3ms
+226 timing build:link Completed in 3ms
+227 timing build:deps Completed in 6ms
+228 timing build Completed in 7ms
+229 timing reify:build Completed in 7ms
+230 timing reify:trash Completed in 4ms
+231 timing reify:save Completed in 98ms
+232 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 606ms
+233 timing auditReport:getReport Completed in 610ms
+234 silly audit report {
+234 silly audit report   esbuild: [
+234 silly audit report     {
+234 silly audit report       id: 1102341,
+234 silly audit report       url: 'https://github.com/advisories/GHSA-67mh-4wv8-2f99',
+234 silly audit report       title: 'esbuild enables any website to send any requests to the development server and read the response',
+234 silly audit report       severity: 'moderate',
+234 silly audit report       vulnerable_versions: '<=0.24.2',
+234 silly audit report       cwe: [Array],
+234 silly audit report       cvss: [Object]
+234 silly audit report     }
+234 silly audit report   ],
+234 silly audit report   vite: [
+234 silly audit report     {
+234 silly audit report       id: 1116229,
+234 silly audit report       url: 'https://github.com/advisories/GHSA-4w7w-66w2-5vf9',
+234 silly audit report       title: 'Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling',
+234 silly audit report       severity: 'moderate',
+234 silly audit report       vulnerable_versions: '<=6.4.1',
+234 silly audit report       cwe: [Array],
+234 silly audit report       cvss: [Object]
+234 silly audit report     }
+234 silly audit report   ]
+234 silly audit report }
+235 timing metavuln:cache:get:security-advisory:esbuild:jKdCIzePj7J1488qgRXvF8Srh9wutSuR1exB8YooNX62hT+qhtrUXYbArLNoIhgwbaCqKpmduh18syZU7BR9SA== Completed in 4ms
+236 timing metavuln:cache:get:security-advisory:vite:I1BdsVrQ8+F0Nz5pjiEY7gYSFBzvKNwOR8nQyg9euOprN34SC4VipJH1GMc8WCRl+e0xZWGr2QiYwiNwqO4gag== Completed in 3ms
+237 http fetch GET 200 https://registry.npmjs.org/esbuild 11ms (cache hit)
+238 timing metavuln:packument:esbuild Completed in 17ms
+239 timing metavuln:load:security-advisory:esbuild:1102341 Completed in 4ms
+240 timing metavuln:calculate:security-advisory:esbuild:1102341 Completed in 21ms
+241 http fetch GET 200 https://registry.npmjs.org/vite 25ms (cache hit)
+242 timing metavuln:packument:vite Completed in 52ms
+243 timing metavuln:load:security-advisory:vite:1116229 Completed in 12ms
+244 timing metavuln:calculate:security-advisory:vite:1116229 Completed in 65ms
+245 timing metavuln:cache:get:security-advisory:vite:tMBsdAS7JBTyRORp0YaJR984WAAsOxgmReSLBN0Nd41GhzEakjROICqAJ31iOdYG5Ijo/MlJ01p3ig1iN88+Tw== Completed in 3ms
+246 timing metavuln:load:security-advisory:vite:jKdCIzePj7J1488qgRXvF8Srh9wutSuR1exB8YooNX62hT+qhtrUXYbArLNoIhgwbaCqKpmduh18syZU7BR9SA== Completed in 7ms
+247 timing metavuln:calculate:security-advisory:vite:jKdCIzePj7J1488qgRXvF8Srh9wutSuR1exB8YooNX62hT+qhtrUXYbArLNoIhgwbaCqKpmduh18syZU7BR9SA== Completed in 10ms
+248 timing metavuln:cache:get:security-advisory:@vitejs/plugin-react:9Gy9+ze27G1us6B+W8biV10fSWWlbvxdqXOWR2dOcacJriijvaJSB375JaNqMBMF4g4ZE1YqsyqGPI5D0gHDqQ== Completed in 22ms
+249 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fplugin-react 25ms (cache hit)
+250 timing metavuln:packument:@vitejs/plugin-react Completed in 26ms
+251 timing metavuln:load:security-advisory:@vitejs/plugin-react:I1BdsVrQ8+F0Nz5pjiEY7gYSFBzvKNwOR8nQyg9euOprN34SC4VipJH1GMc8WCRl+e0xZWGr2QiYwiNwqO4gag== Completed in 0ms
+252 timing metavuln:calculate:security-advisory:@vitejs/plugin-react:I1BdsVrQ8+F0Nz5pjiEY7gYSFBzvKNwOR8nQyg9euOprN34SC4VipJH1GMc8WCRl+e0xZWGr2QiYwiNwqO4gag== Completed in 27ms
+253 timing auditReport:init Completed in 112ms
+254 timing reify:audit Completed in 724ms
+255 timing reify Completed in 3190ms
+256 silly ADD node_modules/postcss-value-parser
+257 silly ADD node_modules/fraction.js
+258 silly ADD node_modules/tailwindcss
+259 silly ADD node_modules/autoprefixer
+260 silly ADD
+261 silly ADD
+262 silly ADD
+263 silly ADD
+264 silly ADD
+265 silly ADD
+266 silly ADD
+267 silly ADD
+268 silly ADD
+269 silly ADD
+270 silly ADD
+271 silly ADD
+272 silly ADD
+273 silly ADD
+274 silly ADD
+275 silly ADD
+276 silly ADD
+277 silly ADD
+278 silly ADD
+279 silly ADD
+280 silly ADD
+281 silly ADD
+282 silly ADD
+283 silly ADD
+284 silly ADD
+285 silly ADD
+286 silly ADD
+287 silly ADD
+288 silly ADD
+289 silly ADD
+290 silly ADD
+291 silly ADD
+292 silly ADD
+293 silly ADD
+294 silly ADD
+295 silly ADD
+296 silly ADD
+297 silly ADD
+298 silly ADD
+299 silly ADD
+300 silly ADD
+301 silly ADD
+302 silly ADD
+303 silly ADD
+304 silly ADD
+305 silly ADD
+306 timing command:install Completed in 3216ms
+307 verbose exit 0
+308 timing npm Completed in 3630ms
+309 info ok
